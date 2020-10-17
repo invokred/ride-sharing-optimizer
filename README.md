@@ -8,7 +8,7 @@ To cite an example, consider a bus of a football team boarding the entire team (
 *Note: Entire focus here is an attempt to solve TSP in a meta-heuristic approach instead of the regualar exact algorithms (dynamic problem, branch-and-bound)*
 
 ## Dataset
-The dataset used consists of 1.5 million records of Taxi Travel data freely available opensource by [New York City Taxi and Limousine Commision](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page). The problem statement was procured from [Kaggle](https://www.kaggle.com/c/nyc-taxi-trip-duration/data). The dataset consists of trip records of 3 types of taxis - a) Yellow b) Green c) For-hire-vehicles. Although they haven't been distinguished for generalizing the result thus eliminating Type-II error due to lack of external validity. Basically, this means that the solution thus obtained can be used for any cabs' rides not only restricting to NYC Cabs.
+The dataset used consists of *1.5 million records* of Taxi Travel data freely available opensource by [New York City Taxi and Limousine Commision](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page). The problem statement was procured from [Kaggle](https://www.kaggle.com/c/nyc-taxi-trip-duration/data). The dataset consists of trip records of 3 types of taxis - a) Yellow b) Green c) For-hire-vehicles. Although they haven't been distinguished for generalizing the result thus eliminating Type-II error due to lack of external validity. Basically, this means that the solution thus obtained can be used for any cabs' rides not only restricting to NYC Cabs.
 
 ### Data Fields
 * id
@@ -32,10 +32,10 @@ The dataset used consists of 1.5 million records of Taxi Travel data freely avai
 * geopy
 
 ## Verbosity
-All files are developed using [Jupyter Notebook] for better debugging and increased utility. 
+All files are developed using *Jupyter Notebook* for better debugging and increased utility. 
 
-*XGBoost Regressor* has used to estimate travel times between a pickup and dropoff location
-*Ant Colony Optimization algorithm* has been used to find the optimal path with least time. (XGBoost regressor is used to build cost matrix)
+*XGBoost Regressor* has used to estimate travel times between a pickup and dropoff location. 
+*Ant Colony Optimization algorithm* has been used to find the optimal path with least time. (*XGBoost regressor* is used to build cost matrix)
 
 ### User Inputs
 filename: final.ipynb
