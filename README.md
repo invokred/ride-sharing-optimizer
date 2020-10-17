@@ -34,10 +34,11 @@ The dataset used consists of 1.5 million records of Taxi Travel data freely avai
 ## Verbosity
 All files are developed using [Jupyter Notebook] for better debugging and increased utility. 
 
-#User Inputs
+### User Inputs
 filename: final.ipynb
 '''
 #user inputs
+'''
 location_count = 15
 ant_count = 10
 g = 100
@@ -48,5 +49,5 @@ q = 10.0
 verbose = True
 '''
 
-#Final Output
+### Final Output
 ![]
