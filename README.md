@@ -8,7 +8,7 @@ To cite an example, consider a bus of a football team boarding the entire team (
 *Note: Entire focus here is an attempt to solve TSP in a meta-heuristic approach instead of the regualar exact algorithms (dynamic problem, branch-and-bound)*
 
 ## Dataset
-The dataset used consists of *1.5 million records* of Taxi Travel data freely available opensource by [New York City Taxi and Limousine Commision](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page). The problem statement was procured from [Kaggle](https://www.kaggle.com/c/nyc-taxi-trip-duration/data). The dataset consists of trip records of 3 types of taxis - a) Yellow b) Green c) For-hire-vehicles. Although they haven't been distinguished for generalizing the result thus eliminating Type-II error due to lack of external validity. Basically, this means that the solution thus obtained can be used for any cabs' rides not only restricting to NYC Cabs.
+The dataset used consists of *1.5 million records* of Taxi Travel data freely available opensource by [New York City Taxi and Limousine Commision](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page) which can be found [here](https://www.kaggle.com/c/nyc-taxi-trip-duration). The problem statement was procured from [Kaggle](https://www.kaggle.com/c/nyc-taxi-trip-duration/data). The dataset consists of trip records of 3 types of taxis - a) Yellow b) Green c) For-hire-vehicles. Although they haven't been distinguished for generalizing the result thus eliminating Type-II error due to lack of external validity. Basically, this means that the solution thus obtained can be used for any cabs' rides not only restricting to NYC Cabs.
 
 ### Data Fields
 * id
@@ -52,4 +52,4 @@ verbose = True
 ```
 
 ### Final Output
-![]
+![](https://raw.githubusercontent.com/invokred/ride-sharing-optimizer/main/Figures/final-path.png)
