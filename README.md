@@ -34,7 +34,7 @@ The dataset used consists of *1.5 million records* of Taxi Travel data freely av
 ## Verbosity
 All files are developed using *Jupyter Notebook* for better debugging and increased utility. 
 
-*XGBoost Regressor* has used to estimate travel times between a pickup and dropoff location. 
+*XGBoost Regressor* has used to estimate travel times between a pickup and dropoff location. (I haven't added generated xgb_model.sav. You may generate your own by executing xgboost.ipynb after cloning)
 *Ant Colony Optimization algorithm* has been used to find the optimal path with least time. (*XGBoost regressor* is used to build cost matrix)
 
 ### User Inputs
